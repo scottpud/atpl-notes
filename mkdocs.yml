@@ -1,0 +1,13 @@
+site_name: ATPL Notes
+nav:
+  - Home: index.md
+  - Instruments:
+      - Principles and Sensors: Instruments/principles-and-sensors.md
+theme:
+  name: material
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.4/contrib/auto-render.min.js
+  - js/math.js
+
