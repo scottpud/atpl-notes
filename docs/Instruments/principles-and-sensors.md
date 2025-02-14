@@ -56,7 +56,9 @@ Two types of probes are used in aircraft for measuring temperature
 
 
 
+## Indications
 
-
-
-
+- Flat plate temperature sensors where sensing element is flush against the aircraft surface
+- Sensors of this type do not suffer from Ram Rise
+- Affected by frictional Heating
+    - Can be taken out by calculation

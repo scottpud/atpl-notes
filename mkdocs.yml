@@ -3,6 +3,8 @@ nav:
   - Home: index.md
   - Instruments:
       - Principles and Sensors: Instruments/principles-and-sensors.md
+  - Utilities:
+      - Utilities: Utilities/Utilities.md
 theme:
   name: material
 
