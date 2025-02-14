@@ -3,5 +3,5 @@
 - git add .
 - git commit -m "Updated notes"
 - git push origin main
--mkdocs gh-deploy
+- mkdocs gh-deploy
 
