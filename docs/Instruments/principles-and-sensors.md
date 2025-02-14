@@ -44,7 +44,7 @@ Two types of probes are used in aircraft for measuring temperature
     - Rosemount Probe
     - Temperature Probe
 
-![Temperature Probe Diagram](/Images/Temp_Probe.png)
+![Temperature Probe Diagram](/docs/Images/Temp_Probe.png)
 
 - Has a heater to protect it from ice during flight 
 - Once air passes heater it is accelerated through a venturi causing some air to be drawn into a sensing chamber
