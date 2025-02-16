@@ -109,6 +109,16 @@ Two types of probes are used in aircraft for measuring temperature
     - Air Temperature including Ram Rise
     - Can also be referred to as 'Measured impact Temperature'
 
+### OAT vs. SAT vs. TAT Comparison
+
+| Measurement | What It Represents | Affected by Aircraft Speed? | Used In |
+|------------|--------------------|----------------------------|---------|
+| **OAT (Outside Air Temperature)** | Directly measured ambient temperature outside the aircraft | ❌ No (for slow aircraft) <br> ✅ Yes (for fast aircraft) | General weather data, light aircraft |
+| **SAT (Static Air Temperature)** | True ambient temperature, corrected for ram rise (same as OAT in slow aircraft) | ✅ Yes (corrected for speed effects) | Performance calculations, high-speed aircraft |
+| **TAT (Total Air Temperature)** | SAT + heating due to air compression (Ram Rise) | ✅ Yes, includes kinetic heating | Airspeed calculations, jet engine performance |
+
+<br>
+
 - Can be calculated in a formula that depends on the aircraft's Mach number ($M$)
     - $SAT \times (1 + 0.2M^2) = TAT$
     - Temperatures are always input and output as Kelvin
