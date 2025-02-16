@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAltimeters\nIndicate altitude of aircraft by detecting changes in the static pressure\nThree mechanical types\nSimple Altimeters\nSensitive Altimeters\nServo-Assited Altimeters\\E$"}
