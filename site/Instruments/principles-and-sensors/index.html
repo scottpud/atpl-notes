@@ -397,6 +397,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Problem of speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oat-vs-sat-vs-tat-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      OAT vs. SAT vs. TAT Comparison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -681,6 +696,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Problem of speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#oat-vs-sat-vs-tat-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      OAT vs. SAT vs. TAT Comparison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -900,16 +930,46 @@
 <li>Can also be referred to as Outside Air temperature (OAT)</li>
 </ul>
 </li>
-<li>
-<p>Will also display as True Air Temperature (TAT)</p>
-<ul>
+<li>Will also display as True Air Temperature (TAT)<ul>
 <li>Air Temperature including Ram Rise</li>
 <li>Can also be referred to as 'Measured impact Temperature'</li>
 </ul>
 </li>
-<li>
-<p>Can be calculated in a formula that depends on the aircraft's Mach number ($M$)</p>
+</ul>
+<h3 id="oat-vs-sat-vs-tat-comparison">OAT vs. SAT vs. TAT Comparison</h3>
+<table>
+<thead>
+<tr>
+<th>Measurement</th>
+<th>What It Represents</th>
+<th>Affected by Aircraft Speed?</th>
+<th>Used In</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OAT (Outside Air Temperature)</strong></td>
+<td>Directly measured ambient temperature outside the aircraft</td>
+<td>❌ No (for slow aircraft) <br> ✅ Yes (for fast aircraft)</td>
+<td>General weather data, light aircraft</td>
+</tr>
+<tr>
+<td><strong>SAT (Static Air Temperature)</strong></td>
+<td>True ambient temperature, corrected for ram rise (same as OAT in slow aircraft)</td>
+<td>✅ Yes (corrected for speed effects)</td>
+<td>Performance calculations, high-speed aircraft</td>
+</tr>
+<tr>
+<td><strong>TAT (Total Air Temperature)</strong></td>
+<td>SAT + heating due to air compression (Ram Rise)</td>
+<td>✅ Yes, includes kinetic heating</td>
+<td>Airspeed calculations, jet engine performance</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 <ul>
+<li>Can be calculated in a formula that depends on the aircraft's Mach number ($M$)<ul>
 <li>$SAT \times (1 + 0.2M^2) = TAT$</li>
 <li>Temperatures are always input and output as Kelvin</li>
 <li>This is based on total conversion of kinetic energy to heat, Sensing systems rarely achieve this or want to achieve this </li>
