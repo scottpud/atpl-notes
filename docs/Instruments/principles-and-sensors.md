@@ -1,3 +1,83 @@
+# Principles and Sensors
+
+## Sensors
+
+### Direct Sensors
+- Data is fed directly from the sensor into the instrument
+
+### Servo-Driven indicators
+- Data is fed into a central computer and converted into electronic signals to drive needles and indicators
+
+## Temperature
+
+Sensors will use °C, °F, °K
+
+- Because °C and °K are the same unit size °K is always numerically bigger than the temperature in °C
+
+- To calculate degrees °K from °C we can use °C + 273
+	- ie: -55°C + 273 = 218°K
+
+- To convert °F into °C it is best to use the navigation computer
+	- Or °F = (°C x 9 / 5) + 32
+
+## Temperature Sensing
+
+There are four primary types of temperature sensors
+
+- Bimetallic Sensors
+- Resistance Sensors
+- Thermocouples
+- Radiation Pyrometers 
+
+### Bimetallic Sensors
+- Uses two different pieces of metal coupled together. When one is heated it will expand more than the other causing a flat strip to bend or coil to uncoil
+
+
+### Resistive Sensors (Resistive Temperature Detector)
+
+- Relies on temperature change of a pure metal (ie, platinum nickel or copper)
+- Operate in wider range of temperates (-200°C to 600°C)
+- Sensing resistor (Rx) is a resistor in a Wheatstone Bridge
+
+![Wheatstone Bridge](../Images/Wheatstone.png)
+
+- Resistors R1, 2 and 3 are all of a known value.
+- If value of Rx is the same as the other resistors there would be no volt difference across the bridge (between point B and D)
+- If Rx was at a difference resistance there would be voltage across the bridge, detected by the galvanometer and converted to temperature. 
+- Need a DC power supply to work.
+- Changes in supply voltage do not affect indications
+
+### Thermocouples
+
+- Used for very high temperatures (ie exhaust of a jet engine)
+- Relies on dissimilar metals which create an electrical potential at their junction which is proportional to the temperature 
+- Sometimes called Thermal EMF
+- Usually made with Chromel and Alumel
+- Consists of two junctions
+	- a 'hot' juction in the hot area (Tsense)
+	- a cold 'reference' junction (Tref) which must be at a known temperature
+- When there is a temperature difference between the two junctions a small potential difference is created
+- Conventional copper wiring carries the voltage to a galvanometer which converts it to a temperature
+
+![Thermal Couple](../Images/Thermal_Couple.png)
+
+- can be expressed in a formula 
+	- $E=K\cdot Th$
+	- $E$ = electromotive force
+	- $Th$ = Hot Junction temperature
+	- $K$ = a constant
+- They are wired in parallel so the failure of one does not cause the total failure of the system
+- Advantages are
+	- They do not need to be powered to operate
+	- Depending on material can sense between -200°C and 1250°C
+- Disadvantage is they are inaccurate
+
+**Radiation Pyrometers**
+
+- For even higher temperatures, when the frequency of radiated energy is into the visual spectrum a radiation pyrometer can be used 
+-  Measures the frequency of the emitted radiation from the area to be examined
+- Normally used to measure Turbine Blade temperatures at the turbine inlet area of a jet engine
+
 ## Air temperature probes
 
 Two types of probes are used in aircraft for measuring temperature
@@ -12,7 +92,7 @@ Two types of probes are used in aircraft for measuring temperature
 - Normally use the bimetallic type
 - Probe is mounted high on the windshield with indicator inside and sensor outside 
 - External sensor has a sun shield over it but no anti ice protection
-- Only suffenciantly accurate for low speed aircraft
+- Only sufficiently accurate for low speed aircraft
 
 ## Problem of speed
 - A faster aircraft creates a temperature sensing Problem
@@ -51,7 +131,7 @@ Two types of probes are used in aircraft for measuring temperature
     - This allows dust and water to be separated by their momentum and exit back of probe
 - Air in the sensor chamber has is measured by a resistive element, usually nickel and then exits the back of the chamber
 - Heating element can affect air temperature reading, so It's designed that the sensing element is isolated from the effects of the de-icing heater
-- Boundry layer bleeds take heated intake air away from the sensor chamber and a heat shield protects the chamber its self
+- Boundary layer bleeds take heated intake air away from the sensor chamber and a heat shield protects the chamber its self
 - Probe will only indicate correctly when the aircraft is moving due to reliance of air being drawn into the sensing chamber
 
 
@@ -83,4 +163,39 @@ Two types of probes are used in aircraft for measuring temperature
  - Modern aircraft use an electronic clock called a 'System Clock' which provides 'System Time'
  - They can be manually reset
  - Can update from external time references, like GPS data
- - 
+ - More basic aircraft still require a clock
+
+ ## The Hobbs Meter
+
+ - Records hours and tenths of hours
+ - May be activated by
+    - Electrically from powering up the aircraft
+    - By oil pressure when the engine is running
+    - Weight on Wheels switch
+    - Airspeed sensing vane to record flight time
+
+## Accelerometers
+
+- Used to display load factor
+- Simple accelerometer uses a weight on a spring where accelerating extends or compresses spring
+- More sophisticated accelerometers use a weight suspended on a thin metal blade. 
+    - Acceleration in one axis will only move the weight off center
+    - Weight forms the I-Bar of an E and I-bar system
+    - Input signal is sent to the center coil of E bar
+    - When the I-bar is centralized the flux at the two ends will be equal
+    - Output coils are wound in opposite directions, so the flux detected in each leg will cancel out the other
+    - When the weight is displaced the flux in the ends of the E-bar will no longer be equal and a signal is generated 
+
+![E and I-bar accelermeter](../Images/accelerometer.jpeg)
+
+### MEMS Accelerometers
+
+- Modern IRS use Micro Electro Mechanical system accelerometers 
+- Works in the same way as a traditional accelerometer by sensing displacement of a mass as either a change of resistance or capacitance
+- IRS will have 3 Accelerometers to sense acceleration in all 3 planes
+- Can provide acceleration out puts to the
+    - Flight Data Recorder
+    - Autopilot and Flight Director
+    - Yaw Dampers
+    - Autobrake system
+    - Any other system that requires acceleration information
