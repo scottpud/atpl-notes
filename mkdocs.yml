@@ -4,7 +4,7 @@ nav:
   - Instruments:
       - Principles and Sensors: Instruments/principles-and-sensors.md
       - Pressure and Sensing: Instruments/pressure-sensing.md
-      - Pressure Altimeters: Instruments/pressure-altimeters
+      - Pressure Altimeters: Instruments/pressure-altimeters.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
