@@ -62,3 +62,25 @@ Two types of probes are used in aircraft for measuring temperature
 - Sensors of this type do not suffer from Ram Rise
 - Affected by frictional Heating
     - Can be taken out by calculation
+
+## Temperature Measurement Errors
+
+### Air Temperature Measurements are subject to 3 errors
+- Instrument Error:
+    - Caused by imperfections in the manufacturing
+    - Can be compensated for by fine calibration of the instrument
+- Environmental Error:
+    - Caused by solar heating or ice accretion
+    - Heating used to prevent Ice
+    - Usually placed on the underside of an aircraft or in a sun shield
+    - Can not be compensated for 
+- Heating Error
+    - Comes from either Ram Rise or Frictional Heating
+    - Only an "error" when you need to find the SAT
+    - Can be fully compensated for with calculations
+
+## Time Measurement
+ - Modern aircraft use an electronic clock called a 'System Clock' which provides 'System Time'
+ - They can be manually reset
+ - Can update from external time references, like GPS data
+ - 
