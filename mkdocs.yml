@@ -5,7 +5,7 @@ nav:
       - Principles and Sensors: Instruments/principles-and-sensors.md
       - Pressure and Sensing: Instruments/pressure-sensing.md
       - Pressure Altimeters: Instruments/pressure-altimeters.md
-      - Vertical Speed Indicators: Instruments/vertical-speed-indicators
+      - Vertical Speed Indicators: Instruments/vertical-speed-indicators.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
