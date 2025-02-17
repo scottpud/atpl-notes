@@ -47,6 +47,7 @@
 - Most aircraft will display in Ft/min 
 - Some could show m/s
 - 1000 ft roughly equals 5 m/s
+- VSI use a logarithmic scale with increased sensitivity at small values
 
 ## Static errors
 - Change of static pressure when none is due will give false indication
