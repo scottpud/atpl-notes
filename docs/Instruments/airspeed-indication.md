@@ -127,12 +127,9 @@
 ## Pitot Static Blockages and Leaks
 ### Static Blockages and Leaks
 - Static Blockage means the pressure in the instrument case remains the same
-- If external static pressure remains the same instrument will read correctly
     - If we maintain height ASI reading will be correct
-- If we descend Pressure alt in the case will be too low
-    - Difference between Pitot and Static will be too high and instrument will **Over read**
-- If we ascend pressure alt in the case will be too High
-    - Difference between Pitot and Static will be too low and instrument will **Under Read**
+- If we descend Pressure alt in the case will be too low and instrument will **Over read**
+- If we climb pressure alt in the case will be too High and instrument will **Under Read**
 - If a static blockage is detected and you switch to alt static, detected static will be slightly low
     - there for instrument will overread slightly
 - In a pressurised aircraft if the static line leaks it will read cabin static pressure
@@ -156,7 +153,7 @@
     - Aircraft Systems Warning
     - Aircraft Attitude
     - Wind Noise
-    
+
 
 
 
