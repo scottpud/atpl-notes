@@ -7,6 +7,7 @@ nav:
       - Pressure Altimeters: Instruments/pressure-altimeters.md
       - Vertical Speed Indicators: Instruments/vertical-speed-indicators.md
       - Airspeed Indication: Instruments/airspeed-indication.md
+      - Machmeters and ADCs: Instrumemts/machmeters-adcs.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
