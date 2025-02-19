@@ -8,6 +8,8 @@ nav:
       - Vertical Speed Indicators: Instruments/vertical-speed-indicators.md
       - Airspeed Indication: Instruments/airspeed-indication.md
       - Machmeters and ADCs: Instruments/machmeter.md
+  - Human Performance:
+      - Basic Concepts: Human-Performance/basic-concepts.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
