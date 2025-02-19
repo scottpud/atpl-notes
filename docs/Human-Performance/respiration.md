@@ -81,7 +81,7 @@
 - This is where the gas transfer takes place
 
 ![Alveoli](../Images/Human-Concepts/Alveoli.png)
-![Alveoli Internal](../Images/Human-Concepts/Alveoli_internal.png)
+![Alveoli Internal](../Images/Human-Concepts/alveoli_internal.png)
 
 ## Lung Capacity
 - Total lung capacity (approx 6000ml) is made up of **Vital Capacity** and the **Residual Volume**
