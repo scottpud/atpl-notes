@@ -11,6 +11,7 @@ nav:
   - Human Performance:
       - Basic Concepts: Human-Performance/basic-concepts.md
       - Respiration: Human-Performance/respiration.md
+      - Circulation: Human-Performance/circulation.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
