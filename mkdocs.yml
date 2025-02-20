@@ -13,6 +13,7 @@ nav:
       - Respiration: Human-Performance/respiration.md
       - Circulation: Human-Performance/circulation.md
       - Hypoxia, Hyperventiliation, Acceleration: Human-Performance/hha.md
+      - High Altitude Operations: Human-Performance/high-alt.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
