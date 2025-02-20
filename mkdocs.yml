@@ -12,6 +12,7 @@ nav:
       - Basic Concepts: Human-Performance/basic-concepts.md
       - Respiration: Human-Performance/respiration.md
       - Circulation: Human-Performance/circulation.md
+      - Hypoxia, Hyperventiliation, Acceleration: Human-Performance/hha.md
   - Utilities:
       - Utilities: Utilities/Utilities.md
 theme:
